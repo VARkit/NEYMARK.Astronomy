@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TheBlackHole.unity
+    guid: 205c31918a5cee545b31965fa410ec69
+  - enabled: 1
+    path: Assets/Scenes/LearnBlackHole.unity
+    guid: 510aabd6e4b988e42ae6eac8fbc419ac
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/TheSolarSystem.unity
+    guid: 7af36bc94804ce04cb98b599218026a1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cddc2a96aac23484295abd4a40782ace, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6f16244e62dc2254697a88e2f0159b05, type: 2}
