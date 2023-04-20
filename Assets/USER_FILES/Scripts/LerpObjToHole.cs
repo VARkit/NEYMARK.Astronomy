@@ -26,7 +26,7 @@ public class LerpObjToHole : MonoBehaviour
             Rigidbody rb = GetComponent<Rigidbody>();
             rb.useGravity = false;
 
-            if (Vector3.Distance(transform.position, Hole.position) < 30)
+            if (Vector3.Distance(transform.position, Hole.position) < 400)
             {
                 Destroy(Me);
             }
