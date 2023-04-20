@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/TheSolarSystem.unity
-    guid: 7af36bc94804ce04cb98b599218026a1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/testHub.unity
     guid: e222ea3ae6ec8c946a43b7bccb9c36e3
