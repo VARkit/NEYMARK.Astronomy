@@ -6,9 +6,12 @@ public class LerpObjToHole : MonoBehaviour
     public Transform Hole;
     public float CastDistanse = 2f;
     public float LerpSpeed = 20f;
+    public float DeathDistanse = 400f;
 
     private float _originDistanse;
     private bool _valid = false;
+
+    public bool EnableGravity = false;
     private void Start()
     {
         _originDistanse = Vector3.Distance(transform.position, Hole.position);
@@ -24,9 +27,9 @@ public class LerpObjToHole : MonoBehaviour
         {
             transform.position = Vector3.Lerp(transform.position, Hole.position, LerpSpeed);
             Rigidbody rb = GetComponent<Rigidbody>();
-            rb.useGravity = false;
+            rb.useGravity = EnableGravity;
 
-            if (Vector3.Distance(transform.position, Hole.position) < 400)
+            if (Vector3.Distance(transform.position, Hole.position) < DeathDistanse)
             {
                 Destroy(Me);
             }
